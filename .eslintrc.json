@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["@emotion"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "root": true,
+  "rules": {
+    "no-extra-boolean-cast": 0,
+    "no-unused-vars": ["warn", { "args": "none", "ignoreRestSiblings": true, "vars": "all" }],
+    "no-shadow": ["error", { "builtinGlobals": false, "hoist": "all", "allow": [] }]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
