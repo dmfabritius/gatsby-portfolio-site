@@ -67,9 +67,11 @@ export default function Hero() {
                 David Fabritius
               </Typography>
               <Typography component="h2" variant="h5">
-                World's greatest software developer for the 8th consecutive year with over 13 decades of experience in
-                exaggerating as well as being better looking than anyone has the right to be. Not available for birthday
-                parties.
+                Experienced Information Technology Consultant with a demonstrated history of working
+                in the information technology and services industry. Skilled in training and readiness,
+                product management, enterprise software, and partner relations. Rediscovering a passion
+                for software development. Earned a bachelor's degree in Computer Science from the
+                Rose-Hulman Institute of Technology.
               </Typography>
               <Hidden smUp>
                 <SocialHorizontal item>

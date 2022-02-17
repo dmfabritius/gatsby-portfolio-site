@@ -4,13 +4,26 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 export const projects = [
   {
+    title: 'React Native Expo App',
+    description: `A sample React Native app featuring user registration and login,
+    with backend authentication and database services provided by Firebase.`,
+    imageUrl: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400',
+    tags: ['React Native', 'Expo', 'iOS', 'Android', 'Firebase', 'TypeScript'],
+    links: [
+      {
+        icon: GitHubIcon,
+        href: 'https://github.com/dmfabritius/react-native-expo-app',
+      },
+    ],
+  },
+  {
     title: 'Classic Asteroids Game',
     description: `A partial clone of the classic Asteroids arcade game created for
     educational purposes. A nearly identical version of the game using the same
     object-oriented programming structure was created six times in six different
     programming languages: C++, C#, Java, Python, JavaScript, and TypeScript.`,
     imageUrl: 'https://images.unsplash.com/photo-1572289758057-3e0f4327833b?w=400',
-    tags: ['C++', 'C#', 'Java', 'Python', 'Javascript', 'Typescript'],
+    tags: ['C++', 'C#', 'Java', 'Python', 'JavaScript', 'TypeScript'],
     links: [
       {
         icon: GitHubIcon,
@@ -59,7 +72,7 @@ export const projects = [
     title: 'Portfolio Web Site',
     description: 'My personal web site with links to selected github projects.',
     imageUrl: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400',
-    tags: ['Typescript', 'React', 'Gatsby', 'Material-UI'],
+    tags: ['React', 'Gatsby', 'Material-UI', 'TypeScript'],
     links: [
       {
         icon: GitHubIcon,
